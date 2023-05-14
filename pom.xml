@@ -211,7 +211,7 @@
             <repositories>
     <repository>
       <id>${nexusgroup}</id>
-      <url>http://${nexusip}:${nexusport}/repository/${nexusgroup}/</url>
+      <url>http://${nexusip}:${nexusport}/repository/${vpro-maven-group}/</url>
     </repository>
   </repositories>
 
