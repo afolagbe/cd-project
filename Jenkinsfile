@@ -10,14 +10,14 @@ pipeline{
         jdk 'JDK'
     }
     environment{
-    SNAPREPO = 'vpro-snapshots'
+    SNAPREPO = 'Vpro-snapshots'
     NEXUSUSER = 'admin'
     nexuspassword = 'admin'
     releaserepo = 'vpro-release'
-    centralrepo = 'vpro-mavan-central'
+    centralrepo = 'Vpro-mavan-central'
     nexusip = '172.31.30.167'
     nexusport = '8081'
-    nexusgroup = 'vpro-maven-group'
+    nexusgroup = 'Vpro-maven-group'
     nexuslogin = 'nexuslogin'
     SONARSERVER = 'Sonarserver'
     SONAR_SCANNER = 'Sonarscanner'
